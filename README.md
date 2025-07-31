@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend (App)
 
 This folder contains the frontend code for the Mental Health Tracker app.
@@ -19,3 +20,6 @@ This folder contains the frontend code for the Mental Health Tracker app.
 - Dashboard with analytics
 
 [Add more details as frontend is implemented] 
+=======
+# Nexium_Kashaf_Assign1
+>>>>>>> 984ff95e2f424e0025c5b394b1ab49743c2af910
