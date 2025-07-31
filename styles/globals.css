@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: linear-gradient(120deg, #e9d6f6 0%, #dbeafe 100%);
+  color: #2d2d2d;
+}
+
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #6d4aff;
+  margin-bottom: 1.5rem;
+  letter-spacing: -1px;
+}
+
+.hero-subtitle {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #7c6ee6;
+  margin-bottom: 2.5rem;
+  font-family: 'Georgia', serif;
+}
+
+.cta-btn {
+  background: linear-gradient(90deg, #6d4aff 0%, #4f8cff 100%);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 2.5rem;
+  padding: 1rem 2.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 24px rgba(77, 64, 255, 0.12);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+.cta-btn:hover {
+  background: linear-gradient(90deg, #4f8cff 0%, #6d4aff 100%);
+  transform: scale(1.04);
+}
+
+.download-btn {
+  background: #2d2dff;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 0.7rem 2rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+.download-btn:hover {
+  background: #6d4aff;
+  transform: scale(1.04);
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background: #fff;
+  color: #222;
+  padding: 1.2rem 2rem;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.07);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  z-index: 1000;
+}
+.cookie-btn {
+  background: #a78bfa;
+  color: #fff;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.cookie-btn.decline {
+  background: #e5e7eb;
+  color: #222;
+}
+.cookie-btn:hover {
+  background: #6d4aff;
+  color: #fff;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+nav {
+  margin: 1rem 0;
+}
+
+.card {
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 0.5rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: transform 0.15s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.04);
+}
+
+img, .next-image {
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.bg-gradient-to-br {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f3e8ff 100%);
+} 
